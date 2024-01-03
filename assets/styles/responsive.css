@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+    
+    header,section, footer, .main-content{
+       padding: 2rem;
+    }
+
+    .hero-text{
+        width: auto;
+    }
+
+    header,footer{
+        flex-direction: column;
+        font-size: x-small;
+    }
+
+    .menu-bar{
+        display: none;
+    }
+    .about{
+        width: auto;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .genre .btn{
+        margin: .2rem 0;
+    }
+
+    .nav-title{
+        margin:  0;
+    }
+
+    .footer-nav{
+        justify-content: space-around;
+        text-align: center;
+    }
+
+
+
+    
+
+}

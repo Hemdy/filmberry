@@ -1,0 +1,225 @@
+*{
+    margin      : 0;
+    padding     : 0;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --background-color  : #0d0c11;
+    --brand-color       : #e50914;
+    --color-            : #ffff;
+    --fade-background   : #17161b;
+
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+span{
+    color: var(--brand-color);
+}
+
+hr{
+    height: .1px;
+    border: none;
+    background-color: #afaeae53;
+    margin: 1rem 0;
+}
+
+hr.underline{
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+    height: .2rem;
+    width: 3rem;
+    background-color: var(--brand-color );
+}
+
+h5{
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 2rem;
+    padding: .3rem;
+    text-align: center;
+    border-radius: 2rem;
+
+}
+
+button{
+    text-transform: uppercase;
+    padding: .4rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btn{
+    background-color: var(--brand-color);
+    color: var(--color-);
+}
+
+.deselect-btn{
+    background-color: var(--fade-background);
+}
+
+
+
+/* main section starts here */
+section{
+    padding             : 2rem 8rem;
+    color               : var(--color-);
+}
+
+main{
+    background-image    : url(/assets/images/backdrop/download\ 1.png);
+}
+
+.main-content{
+    padding: 5rem 0;
+}
+
+h5,h1,p{
+    margin: 1.2rem 0;
+}
+
+.main-content p{
+    font-size       : 14px;
+    font-weight     : 100;
+    color           : #afaeae;
+}
+
+
+/* header starts here */
+
+header{
+    padding         : .5rem 8rem;
+    display         : flex;
+    justify-content : space-between ;
+}
+
+
+.brand-logo{
+    font-weight     : 800;
+    font-size       : 1.5rem;
+    letter-spacing  : .1rem;
+    color           : var(--brand-color);
+}
+
+.menu-bar{
+    display: flex;
+}
+
+
+.header-nav,  .header-icons{
+    margin: auto 1rem;
+}
+
+.header-nav a, .header-icons a{
+    margin          : 0 .5rem;
+    color           : var(--color-);
+    text-decoration : none;
+}
+
+.header-nav a:hover, .header-icons a:hover{
+    color       : var(--brand-color);
+    transition  : 1s;
+}
+
+/* header ends here */
+/* main-content starts here */
+
+.hero-title{
+    font-size       : 3rem;
+    font-weight     : 400;
+}
+
+.hero-text{
+    width: 424px;
+}
+.rating-container{
+    display : flex;
+    gap     : 1rem;
+}
+/* main-content ends here */
+
+/* section 2 starts here */
+.section-2{
+    background-color: var(--background-color);
+}
+
+.genre .btn{
+    text-transform: capitalize;
+    margin: 0 .2rem;
+}
+
+h2.title{
+    padding: 3rem 0;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    width: 300px;
+}
+
+.card-image img{
+    opacity: .5;
+    width: 100%;
+}
+
+.card-image img:hover{
+    opacity: 5;
+    transition-duration: 1s;
+}
+/* section 2 ends here */
+
+/* footer starts here */
+footer{
+    background-color    : var(--background-color);
+    color               : var(--color-);
+    padding             : 2rem 8rem;
+    display             : flex;
+    justify-content: space-between;
+}
+
+.about{
+    width: 40%;
+}
+
+.footer-nav{
+    display : flex;
+    gap     : 3rem;
+}
+
+.nav-title{
+    margin: 1.2rem 0;
+}
+.footer-navlist{
+    padding: 1rem 0;
+}
+
+.navlist-item{
+    margin: .3rem 0;
+}
+
+
+
+.navlink{
+    text-decoration : none;
+    color           : var(--color-);
+}
+
+.navlink:hover{
+    color               : var(--brand-color);
+    transition-duration : .8s;
+}
+/* footer ends here */
+
+/* copyright */
+.copyright{
+    color           : var(--color-);
+    text-align      : center;
+    padding         : 4rem 0;
+}
