@@ -4,6 +4,10 @@
        padding: 2rem;
     }
 
+    hr{
+        height: 2px;
+    }
+
     header{
         flex-direction: row;
     }

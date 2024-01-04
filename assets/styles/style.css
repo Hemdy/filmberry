@@ -38,7 +38,7 @@ hr.underline{
 h5{
     text-transform: uppercase;
     font-weight: 200;
-    width: 2rem;
+    width: 3rem;
     padding: .3rem;
     text-align: center;
     border-radius: 2rem;
@@ -162,16 +162,32 @@ h2.title{
 
 .card{
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
+
 .card-image img{
-    opacity: .5;
+    opacity: .3;
     width: 100%;
 }
 
 .card-image img:hover{
     opacity             : 5;
     transition-duration : 1s;
+}
+
+.card-title{
+    width: auto;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.movie-title{
+    font-size: 9px;
+
 }
 /* section 2 ends here */
 
