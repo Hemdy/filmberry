@@ -170,8 +170,8 @@ h2.title{
 }
 
 .card-image img:hover{
-    opacity: 5;
-    transition-duration: 1s;
+    opacity             : 5;
+    transition-duration : 1s;
 }
 /* section 2 ends here */
 

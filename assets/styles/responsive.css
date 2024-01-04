@@ -4,17 +4,34 @@
        padding: 2rem;
     }
 
+    header{
+        flex-direction: row;
+    }
+
     .hero-text{
         width: auto;
     }
 
-    header,footer{
-        flex-direction: column;
-        font-size: x-small;
-    }
-
     .menu-bar{
         display: none;
+    }
+
+    .harmbuger-menu{
+        margin: auto 0;
+        
+        width: 2rem;
+
+    }
+
+
+    .bar{
+        background-color: var(--brand-color);
+        height: 2px;
+        margin: .3rem;
+    }
+
+    .main-content{
+        padding: 0;
     }
     .about{
         width: auto;
@@ -26,8 +43,17 @@
         margin: .2rem 0;
     }
 
+    footer{
+        flex-direction: column;
+        font-size: x-small;
+    }
+
     .nav-title{
         margin:  0;
+    }
+
+    .navlist-item{
+        list-style-type: none;
     }
 
     .footer-nav{
