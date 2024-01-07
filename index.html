@@ -65,14 +65,14 @@
     <!-- select movies -->
     <section class="section-2">
         <div class="genre">
-            <button class="btn">action</button>
-            <button class="btn deselect-btn">comedy</button>
-            <button class="btn deselect-btn">adventure</button>
-            <button class="btn">drama</button>
-            <button class="btn deselect-btn">animation</button>
-            <button class="btn">fantasy</button>
-            <button class="btn deselect-btn">family</button>
-            <button class="btn deselect-btn">humor</button>
+            <button class="btn" onclick="changeColor" >action</button>
+            <button class="btn deselect-btn" onclick="changeColor" >comedy</button>
+            <button class="btn deselect-btn" onclick="changeColor" >adventure</button>
+            <button class="btn" onclick="changeColor" >drama</button>
+            <button class="btn deselect-btn" onclick="changeColor" >animation</button>
+            <button class="btn" onclick="myFunction" >fantasy</button>
+            <button class="btn deselect-btn" onclick="changeColor" >family</button>
+            <button class="btn deselect-btn" onclick="changeColor" >humor</button>
         </div>
 
         <h2 class="title">Recomended</h2>
@@ -80,7 +80,9 @@
         <div class="cards">
             <div class="card">
                 <div class="card-image">
-                    <img src="/assets/images/movies/desktop-wallpaper-the-godfather-50th-anniversary-movie-poster-the-godfather-movie-poster-thumbnail.jpg" alt="" srcset="">
+                    <a href="godfather.html">
+                        <img src="/assets/images/movies/desktop-wallpaper-the-godfather-50th-anniversary-movie-poster-the-godfather-movie-poster-thumbnail.jpg" alt="" srcset="">
+                    </a>
                 </div>
                 <div class="card-title">
                     <h2 class="movie-title">The God Father</h2>
@@ -88,7 +90,9 @@
             </div>
             <div class="card">
                 <div class="card-image">
-                    <img src="/assets/images/movies/images (2).jpeg" alt="" srcset="">
+                    <a href="_">
+                        <img src="/assets/images/movies/images (2).jpeg" alt="" srcset="">
+                    </a>
                 </div>
                 <div class="card-title">
                     <h2 class="movie-title">Culaebaghavali</h2>
@@ -237,7 +241,13 @@
         &copy;Filmberycopy - 2024
     </div>
 
-
+    <script src="/assets/jscript/jquery-3.6.3.min.js"></script>
+    <script src="/assets/jscript/bootstrap.min.js">
+        function changeColor(){
+            var color = ["green", "white", "#e50914"]
+            .css("background-color", selectedColor);
+        }
+    </script>
     
 </body>
 </html>

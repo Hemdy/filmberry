@@ -57,6 +57,11 @@ button{
     color: var(--color-);
 }
 
+button:hover{
+    background-color: var(--brand-color);
+    transition: 2s;
+}
+
 .deselect-btn{
     background-color: var(--fade-background);
 }
@@ -197,7 +202,8 @@ footer{
     color               : var(--color-);
     padding             : 2rem 8rem;
     display             : flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 2rem;
 }
 
 .about{
@@ -206,7 +212,7 @@ footer{
 
 .footer-nav{
     display : flex;
-    gap     : 3rem;
+    justify-content: space-between;
 }
 
 .nav-title{
@@ -220,6 +226,9 @@ footer{
     margin: .3rem 0;
 }
 
+.nav-content{
+    margin: 0 1rem;
+}
 
 
 .navlink{
@@ -239,3 +248,55 @@ footer{
     text-align      : center;
     padding         : 4rem 0;
 }
+
+
+/* the godfather page starts here */
+
+.movie{
+    display: flex;
+    gap: 1rem;
+}
+
+.movie-img img{
+    width: 11rem;
+
+}
+
+#movie-title{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.details{
+    font-size: smaller;
+}
+
+
+.movie-thumbnail img{
+    width: 100%;
+}
+
+/* thoughts */
+.thoughts{
+    background-color: var(--fade-background);
+}
+
+.feedback{
+    display: flex;
+    gap: .5rem;
+}
+
+.profile{
+    width: 2rem;
+    margin: auto 0;
+}
+
+.profile img{
+    margin: auto 0px;
+    width: 2rem;
+    border-radius: 100%;
+}
+
+/* thoughts ends here */
+
+/* the godfather ends here */

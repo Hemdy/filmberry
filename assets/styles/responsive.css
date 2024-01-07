@@ -4,6 +4,11 @@
        padding: 2rem;
     }
 
+    body{
+        font-size: x-small;
+    }
+
+
     hr{
         height: 2px;
     }
@@ -26,8 +31,6 @@
         width: 2rem;
 
     }
-
-
     .bar{
         background-color: var(--brand-color);
         height: 2px;
@@ -37,6 +40,11 @@
     .main-content{
         padding: 0;
     }
+
+    .comment{
+        font-size: xx-small;
+    }
+    
     .about{
         width: auto;
         margin: 2rem auto;
@@ -53,6 +61,7 @@
     }
 
     .nav-title{
+        font-size: large;
         margin:  0;
     }
 
@@ -61,9 +70,11 @@
     }
 
     .footer-nav{
-        justify-content: space-around;
+        flex-direction: column;
         text-align: center;
+
     }
+
 
 
 
